@@ -57,7 +57,7 @@ $(document).ready(function() {
   function displayGifs() {
     var action = $(this).attr("data-name");
     var queryURL =
-      "http://api.giphy.com/v1/gifs/search?q=" +
+      "https://api.giphy.com/v1/gifs/search?q=" +
       action +
       "&api_key=dc6zaTOxFJmzC&limit=10";
     console.log(queryURL); // displays the constructed url
